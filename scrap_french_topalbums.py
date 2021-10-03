@@ -41,4 +41,4 @@ for year in range(1994, 2021) :
     time.sleep(1)
     
 print('Scraping finished')
-top50.to_csv('top-albums_1994-2020.csv', index=False)
+topalbums.to_csv('top-albums_1994-2020.csv', index=False)
